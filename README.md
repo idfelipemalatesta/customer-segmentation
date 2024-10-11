@@ -22,4 +22,17 @@ Entregaveis: 2 relatórios analíticos em excel contendo: 1: Análise, interpret
 
 Abaixo segue algumas imagens do projeto. O projeto completo pode ser acessado clicando [aqui](https://github.com/idfelipemalatesta/customers-segmentation/blob/main/notebooks/customers-clustering.ipynb)
 
+Analisando a distribuição dos clientes por RFM
+<img src="images/hist_rfm.png">
+
+Modelagem com Kmeans - Elbow Method e Silhouette Score
+<img src="images/inercia_silhoutte.png">
+
+Distribuição dos Clientes por Clusters 3D Plot
+<img src="images/clientes_clusters_3d.png">
+
+Visualização dos Clusters por RFM
+<img src="images/clusters_rfm.png">
+
+
 
