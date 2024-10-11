@@ -25,9 +25,6 @@ Abaixo segue algumas imagens do projeto. O projeto completo pode ser acessado cl
 Analisando a distribuição dos clientes por RFM
 <img src="images/hist_rfm.png">
 
-Modelagem com Kmeans - Elbow Method e Silhouette Score
-<img src="images/inercia_silhoutte.png">
-
 Distribuição dos Clientes por Clusters 3D Plot
 <img src="images/clientes_clusters_3d.png">
 
