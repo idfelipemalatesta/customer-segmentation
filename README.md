@@ -32,3 +32,4 @@ Distribuição dos Clientes por Clusters 3D Plot:
 <img src="images/clientes_clusters_3d.png">
 
 Visualização dos Clusters por RFM:
+<img src="images/cluster_rfm.png">
