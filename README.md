@@ -18,7 +18,10 @@ Vou utilizar o modelo RFM (Recência, Frequência e Valor Monetário) que é uma
 **2. Frequência (F)** Avalia quantas vezes um cliente comprou em um determinado período. Clientes frequentes são valiosos, pois tendem a ter maior lealdade.<br>
 **3. Valor Monetário (M)** Refere-se ao total gasto por cada cliente em um determinado período. Clientes que gastam mais são geralmente mais valiosos para o negócio.
 
-**Entregaveis:** 2 relatórios analíticos em excel contendo: 1: Análise, interpretação e sugestões dos Clusters; 2: Clientes agrupados por RFM e seus devidos clusters/grupos.
+**Entregaveis:** 3 relatórios analíticos contendo: 
+1. Clientes agrupados por RFM e seus devidos clusters/grupos.
+2. Análise, interpretação e sugestões dos Clusters.
+3. Tabela contendo a média dos valores de RFM por cluster.
 
 Abaixo segue algumas imagens do projeto. O projeto completo pode ser acessado clicando [aqui](https://github.com/idfelipemalatesta/customers-segmentation/blob/main/notebooks/customers-clustering.ipynb)
 
