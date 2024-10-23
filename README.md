@@ -23,6 +23,18 @@ Vou utilizar o modelo RFM (Recência, Frequência e Valor Monetário) que é uma
 2. Análise, interpretação e sugestões dos Clusters.
 3. Tabela contendo a média dos valores de RFM por cluster.
 
+Tópicos do projeto:
+
+- Análise Exploratória dos Dados
+- Data Cleaning
+- Feature Engineering (Recência, Frequência e Monetário)
+- Identificação e Separação dos Outliers
+- Pré-processamento (Standard Scale)
+- Modelagem - KMeans Clustering
+- Métricas Elbow Method e Silhouette Score para definir os clusters
+- Análise dos Clusters, Análise dos Clientes Outliers
+- Visualização dos Clusters p/ RFM e Conclusão
+
 Abaixo segue algumas imagens do projeto. O projeto completo pode ser acessado clicando [aqui](https://github.com/idfelipemalatesta/customers-segmentation/blob/main/notebooks/customers-clustering.ipynb)
 
 Analisando a distribuição dos clientes por RFM:
