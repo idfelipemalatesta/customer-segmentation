@@ -12,7 +12,7 @@ O objetivo é segmentar os clientes em grupos com comportamentos de compras seme
 
 ## Solução
 
-Vou utilizar o método RFM (Recência, Frequência e Valor Monetário) e Aprendizado de Máquina Não Supervisionado que desempenha um papel crucial, permitindo uma análise profunda e eficiente dos dados.
+Vou utilizar o método **RFM** (Recência, Frequência e Valor Monetário) e **Aprendizado de Máquina Não Supervisionado** que desempenha um papel crucial, permitindo uma análise profunda e eficiente dos dados.
 
 **1. Recência (R)** Refere-se ao tempo desde a última compra do cliente. Clientes que compraram recentemente têm maior probabilidade de comprar novamente.<br>
 **2. Frequência (F)** Avalia quantas vezes um cliente comprou em um determinado período. Clientes frequentes são valiosos, pois tendem a ter maior lealdade.<br>
