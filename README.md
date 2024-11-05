@@ -18,10 +18,10 @@ Vou utilizar o modelo RFM (Recência, Frequência e Valor Monetário) que é uma
 **2. Frequência (F)** Avalia quantas vezes um cliente comprou em um determinado período. Clientes frequentes são valiosos, pois tendem a ter maior lealdade.<br>
 **3. Valor Monetário (M)** Refere-se ao total gasto por cada cliente em um determinado período. Clientes que gastam mais são geralmente mais valiosos para o negócio.
 
-**Entregaveis:** 3 relatórios analíticos contendo: 
-1. Clientes agrupados por RFM e seus devidos clusters/grupos.
-2. Análise, interpretação e sugestões dos Clusters.
-3. Tabela contendo a média dos valores de RFM por cluster.
+**Entregáveis:** 3 relatórios analíticos contendo:
+1.	**Clientes agrupados por RFM**, organizados nos respectivos clusters/grupos.
+2.	**Análise e interpretação** dos grupos, com sugestões de ações estratégicas.
+3.	**Tabela com a média dos valores de RFM** para cada cluster identificado.
 
 Tópicos do projeto:
 
