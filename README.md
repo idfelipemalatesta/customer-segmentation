@@ -10,6 +10,8 @@ Fonte dos Dados: https://archive.ics.uci.edu/dataset/502/online+retail+ii
 
 O objetivo é segmentar os clientes em grupos com comportamentos de compras semelhantes. Com isso a empresa pode construir melhores conexões a fim de fidelizar seus clientes e recuperar clientes perdidos.
 
+Link do Notebook: [customer-clustering](https://github.com/idfelipemalatesta/customers-segmentation/blob/main/notebooks/customers-clustering.ipynb)
+
 ## Solução
 
 Vou utilizar o método **RFM** (Recência, Frequência e Valor Monetário) e **Aprendizado de Máquina Não Supervisionado** que desempenha um papel crucial, permitindo uma análise profunda e eficiente dos dados.
@@ -35,13 +37,16 @@ Tópicos do projeto:
 - Análise dos Clusters, Análise dos Clientes Outliers
 - Visualização dos Clusters p/ RFM e Conclusão
 
-Abaixo segue algumas imagens do projeto. O projeto completo pode ser acessado clicando [aqui](https://github.com/idfelipemalatesta/customers-segmentation/blob/main/notebooks/customers-clustering.ipynb)
+## Imagens do Projeto
 
 Analisando a distribuição dos clientes por RFM:
 <img src="images/hist_rfm.png">
 
 Modelagem KMeans com Elbow Method e Silhouette Score:
 <img src="images/inercia_silhoutte.png">
+
+Analisando os diagramas de Silhoutte para diversos clusters:
+<img src="images/diagram_silhoutte.png">
 
 Distribuição dos Clientes por Clusters 3D Plot:
 <img src="images/clientes_clusters_3d.png">
