@@ -1,4 +1,4 @@
-# Segmentação de Clientes utilizando Machine Learning
+# Marketing Analytics - Segmentação de Clientes
 
 ## Descrição do Problema
 
@@ -14,42 +14,33 @@ Link do Notebook: [customer-clustering](https://github.com/idfelipemalatesta/cus
 
 ## Solução
 
-Vou utilizar o método **RFM** (Recência, Frequência e Valor Monetário) e **Aprendizado de Máquina Não Supervisionado** que desempenha um papel crucial, permitindo uma análise profunda e eficiente dos dados.
+- Segmentação de clientes por comportamento de compra utilizando o modelo RFM.
+- Implementação do algoritmo de Machine Learning K-Means.
+- Identificação de churn em clientes inativos há seis meses.
 
-**1. Recência (R)** Refere-se ao tempo desde a última compra do cliente. Clientes que compraram recentemente têm maior probabilidade de comprar novamente.<br>
-**2. Frequência (F)** Avalia quantas vezes um cliente comprou em um determinado período. Clientes frequentes são valiosos, pois tendem a ter maior lealdade.<br>
-**3. Valor Monetário (M)** Refere-se ao total gasto por cada cliente em um determinado período. Clientes que gastam mais são geralmente mais valiosos para o negócio.
+**Entregáveis: Três relatórios analíticos contendo:**
+1.	Segmentação dos clientes por clusters, acompanhada de uma sugestão estratégica para engajamento.
+2.	Distribuição e percentual de clientes em cada cluster.
+3.	Lista de clientes inativos há 180 dias (indicadores de churn).
 
-**Entregáveis:** 3 relatórios analíticos contendo:
-1.	**Clientes agrupados por RFM**, organizados nos respectivos clusters/grupos.
-2.	**Análise e interpretação** dos grupos, com sugestões de ações estratégicas.
-3.	**Tabela com a média dos valores de RFM** para cada cluster identificado.
+## Documentação do Projeto
 
-Tópicos do projeto:
+**Examinando a segmentação dos clientes com base na análise RFM:**
+<img src="images/hist_rfm2.png">
 
-- Análise Exploratória dos Dados
-- Data Cleaning
-- Feature Engineering (Recência, Frequência e Monetário)
-- Identificação e Separação dos Outliers
-- Pré-processamento (Standard Scale)
-- Modelagem - KMeans Clustering
-- Métricas Elbow Method e Silhouette Score para definir os clusters
-- Análise dos Clusters, Análise dos Clientes Outliers
-- Visualização dos Clusters p/ RFM e Conclusão
+<img src="images/boxplot_no_outliers.png">
 
-## Imagens do Projeto
+**Análise comparativa das estatísticas de clientes outliers e não outliers:**
+<img src="images/estatistica_descritiva_comp.png">
 
-Analisando a distribuição dos clientes por RFM:
-<img src="images/hist_rfm.png">
-
-Modelagem KMeans com Elbow Method e Silhouette Score:
 <img src="images/inercia_silhoutte.png">
 
-Analisando os diagramas de Silhoutte para diversos clusters:
-<img src="images/diagram_silhoutte.png">
+**Análise dos diagramas de Silhouette:**
+<img src="images/diagram_silhoutte2.png">
 
-Distribuição dos Clientes por Clusters 3D Plot:
 <img src="images/clientes_clusters_3d.png">
 
-Visualização dos Clusters por RFM:
-<img src="images/cluster_rfm.png">
+**Visualização final dos Clientes agrupados por seus clusters:**
+<img src="images/cluster_rfm2.png">
+
+<img src="images/dist_churn.png">
